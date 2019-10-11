@@ -97,3 +97,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias clinicalProd="ssh -i ~/.ssh/id_rsa_ar 35.155.237.29"
+alias clinicalDev="ssh -i ~/.ssh/id_rsa_ar 52.35.194.101"
+alias clinicalDevSFTP="sftp -i ~/.ssh/id_rsa_ar 52.35.194.101"
+alias ar2020Dev="ssh -i ~/.ssh/e4dev.pem ubuntu@54.191.89.77"
+alias ar2020DevSFTP="sftp -i ~/.ssh/e4dev.pem ubuntu@54.191.89.77"
+alias ar2020Prod="ssh -i ~/.ssh/id_rsa_ar 52.35.22.127"
+alias ar2020ProdSFTP="sftp -i ~/.ssh/e4dev.pem ubuntu@52.35.22.127"
+alias myidLive="ssh 45.55.58.23"
+alias myidPreview="ssh 104.236.87.216"
+alias myidLiveSFTP="sftp 45.55.58.23"
+alias myidPreviewSFTP="sftp 104.236.87.216"
+alias git-cleanup='git fetch --prune && git branch -r | awk "{print \$1}" | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk "{print \$1}" | xargs git branch -D'
+
+DEFAULT_USER="tetzel"
