@@ -1,0 +1,979 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+
+    "profiles": [
+
+        {
+
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+
+            "hidden": false,
+
+            "name": "Ubuntu",
+
+            "source": "Windows.Terminal.Wsl",
+
+            "fontFace": "CascadiaCode Nerd Font",
+
+            "fontSize": 15,
+
+            "colorScheme": "Molokai"
+
+        },
+
+        {
+
+            // Make changes here to the powershell.exe profile
+
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+            "name": "Windows PowerShell",
+
+            "commandline": "powershell.exe",
+
+            "hidden": false,
+
+            "fontFace": "CascadiaCode Nerd Font",
+
+            "fontSize": 15
+
+        },
+
+        {
+
+            // Make changes here to the cmd.exe profile
+
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+
+            "name": "cmd",
+
+            "commandline": "cmd.exe",
+
+            "hidden": false,
+
+            "fontFace": "CascadiaCode Nerd Font",
+
+            "fontSize": 15
+
+        },
+
+        {
+
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+
+            "hidden": false,
+
+            "name": "Azure Cloud Shell",
+
+            "source": "Windows.Terminal.Azure",
+
+            "fontFace": "CascadiaCode Nerd Font",
+
+            "fontSize": 15
+
+        }
+
+    ],
+
+    // Add custom color schemes to this array
+
+    "schemes": [
+
+        {
+
+            "name": "Gruvbox Dark",
+
+            "black": "#1e1e1e",
+
+            "red": "#be0f17",
+
+            "green": "#868715",
+
+            "yellow": "#cc881a",
+
+            "blue": "#377375",
+
+            "purple": "#a04b73",
+
+            "cyan": "#578e57",
+
+            "white": "#978771",
+
+            "brightBlack": "#7f7061",
+
+            "brightRed": "#f73028",
+
+            "brightGreen": "#aab01e",
+
+            "brightYellow": "#f7b125",
+
+            "brightBlue": "#719586",
+
+            "brightPurple": "#c77089",
+
+            "brightCyan": "#7db669",
+
+            "brightWhite": "#e6d4a3",
+
+            "background": "#1e1e1e",
+
+            "foreground": "#e6d4a3"
+
+        },
+
+        {
+
+            "name": "Hopscotch.256",
+
+            "black": "#322931",
+
+            "red": "#dd464c",
+
+            "green": "#8fc13e",
+
+            "yellow": "#fdcc59",
+
+            "blue": "#1290bf",
+
+            "purple": "#c85e7c",
+
+            "cyan": "#149b93",
+
+            "white": "#b9b5b8",
+
+            "brightBlack": "#797379",
+
+            "brightRed": "#dd464c",
+
+            "brightGreen": "#8fc13e",
+
+            "brightYellow": "#fdcc59",
+
+            "brightBlue": "#1290bf",
+
+            "brightPurple": "#c85e7c",
+
+            "brightCyan": "#149b93",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#322931",
+
+            "foreground": "#b9b5b8"
+
+        },
+
+        {
+
+            "name": "Hybrid",
+
+            "black": "#2a2e33",
+
+            "red": "#b84d51",
+
+            "green": "#b3bf5a",
+
+            "yellow": "#e4b55e",
+
+            "blue": "#6e90b0",
+
+            "purple": "#a17eac",
+
+            "cyan": "#7fbfb4",
+
+            "white": "#b5b9b6",
+
+            "brightBlack": "#1d1f22",
+
+            "brightRed": "#8d2e32",
+
+            "brightGreen": "#798431",
+
+            "brightYellow": "#e58a50",
+
+            "brightBlue": "#4b6b88",
+
+            "brightPurple": "#6e5079",
+
+            "brightCyan": "#4d7b74",
+
+            "brightWhite": "#5a626a",
+
+            "background": "#161719",
+
+            "foreground": "#b7bcba"
+
+        },
+
+        {
+
+            "name": "JetBrains Darcula",
+
+            "black": "#000000",
+
+            "red": "#fa5355",
+
+            "green": "#126e00",
+
+            "yellow": "#c2c300",
+
+            "blue": "#4581eb",
+
+            "purple": "#fa54ff",
+
+            "cyan": "#33c2c1",
+
+            "white": "#adadad",
+
+            "brightBlack": "#555555",
+
+            "brightRed": "#fb7172",
+
+            "brightGreen": "#67ff4f",
+
+            "brightYellow": "#ffff00",
+
+            "brightBlue": "#6d9df1",
+
+            "brightPurple": "#fb82ff",
+
+            "brightCyan": "#60d3d1",
+
+            "brightWhite": "#eeeeee",
+
+            "background": "#202020",
+
+            "foreground": "#adadad"
+
+        },
+
+        {
+
+            "name": "Lab Fox",
+
+            "black": "#2e2e2e",
+
+            "red": "#fc6d26",
+
+            "green": "#3eb383",
+
+            "yellow": "#fca121",
+
+            "blue": "#db3b21",
+
+            "purple": "#380d75",
+
+            "cyan": "#6e49cb",
+
+            "white": "#ffffff",
+
+            "brightBlack": "#464646",
+
+            "brightRed": "#ff6517",
+
+            "brightGreen": "#53eaa8",
+
+            "brightYellow": "#fca013",
+
+            "brightBlue": "#db501f",
+
+            "brightPurple": "#441090",
+
+            "brightCyan": "#7d53e7",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#2e2e2e",
+
+            "foreground": "#ffffff"
+
+        },
+
+        {
+
+            "name": "MaterialDark",
+
+            "black": "#212121",
+
+            "red": "#b7141f",
+
+            "green": "#457b24",
+
+            "yellow": "#f6981e",
+
+            "blue": "#134eb2",
+
+            "purple": "#560088",
+
+            "cyan": "#0e717c",
+
+            "white": "#efefef",
+
+            "brightBlack": "#424242",
+
+            "brightRed": "#e83b3f",
+
+            "brightGreen": "#7aba3a",
+
+            "brightYellow": "#ffea2e",
+
+            "brightBlue": "#54a4f3",
+
+            "brightPurple": "#aa4dbc",
+
+            "brightCyan": "#26bbd1",
+
+            "brightWhite": "#d9d9d9",
+
+            "background": "#232322",
+
+            "foreground": "#e5e5e5"
+
+        },
+
+        {
+
+            "name": "Mathias",
+
+            "black": "#000000",
+
+            "red": "#e52222",
+
+            "green": "#a6e32d",
+
+            "yellow": "#fc951e",
+
+            "blue": "#c48dff",
+
+            "purple": "#fa2573",
+
+            "cyan": "#67d9f0",
+
+            "white": "#f2f2f2",
+
+            "brightBlack": "#555555",
+
+            "brightRed": "#ff5555",
+
+            "brightGreen": "#55ff55",
+
+            "brightYellow": "#ffff55",
+
+            "brightBlue": "#5555ff",
+
+            "brightPurple": "#ff55ff",
+
+            "brightCyan": "#55ffff",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#000000",
+
+            "foreground": "#bbbbbb"
+
+        },
+
+        {
+
+            "name": "midnight-in-mojave",
+
+            "black": "#1e1e1e",
+
+            "red": "#ff453a",
+
+            "green": "#32d74b",
+
+            "yellow": "#ffd60a",
+
+            "blue": "#0a84ff",
+
+            "purple": "#bf5af2",
+
+            "cyan": "#5ac8fa",
+
+            "white": "#ffffff",
+
+            "brightBlack": "#1e1e1e",
+
+            "brightRed": "#ff453a",
+
+            "brightGreen": "#32d74b",
+
+            "brightYellow": "#ffd60a",
+
+            "brightBlue": "#0a84ff",
+
+            "brightPurple": "#bf5af2",
+
+            "brightCyan": "#5ac8fa",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#1e1e1e",
+
+            "foreground": "#ffffff"
+
+        },
+
+        {
+
+            "name": "Molokai",
+
+            "black": "#121212",
+
+            "red": "#fa2573",
+
+            "green": "#98e123",
+
+            "yellow": "#dfd460",
+
+            "blue": "#1080d0",
+
+            "purple": "#8700ff",
+
+            "cyan": "#43a8d0",
+
+            "white": "#bbbbbb",
+
+            "brightBlack": "#555555",
+
+            "brightRed": "#f6669d",
+
+            "brightGreen": "#b1e05f",
+
+            "brightYellow": "#fff26d",
+
+            "brightBlue": "#00afff",
+
+            "brightPurple": "#af87ff",
+
+            "brightCyan": "#51ceff",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#121212",
+
+            "foreground": "#bbbbbb"
+
+        },
+
+        {
+
+            "name": "Monokai Remastered",
+
+            "black": "#1a1a1a",
+
+            "red": "#f4005f",
+
+            "green": "#98e024",
+
+            "yellow": "#fd971f",
+
+            "blue": "#9d65ff",
+
+            "purple": "#f4005f",
+
+            "cyan": "#58d1eb",
+
+            "white": "#c4c5b5",
+
+            "brightBlack": "#625e4c",
+
+            "brightRed": "#f4005f",
+
+            "brightGreen": "#98e024",
+
+            "brightYellow": "#e0d561",
+
+            "brightBlue": "#9d65ff",
+
+            "brightPurple": "#f4005f",
+
+            "brightCyan": "#58d1eb",
+
+            "brightWhite": "#f6f6ef",
+
+            "background": "#0c0c0c",
+
+            "foreground": "#d9d9d9"
+
+        },
+
+        {
+
+            "name": "Monokai Soda",
+
+            "black": "#1a1a1a",
+
+            "red": "#f4005f",
+
+            "green": "#98e024",
+
+            "yellow": "#fa8419",
+
+            "blue": "#9d65ff",
+
+            "purple": "#f4005f",
+
+            "cyan": "#58d1eb",
+
+            "white": "#c4c5b5",
+
+            "brightBlack": "#625e4c",
+
+            "brightRed": "#f4005f",
+
+            "brightGreen": "#98e024",
+
+            "brightYellow": "#e0d561",
+
+            "brightBlue": "#9d65ff",
+
+            "brightPurple": "#f4005f",
+
+            "brightCyan": "#58d1eb",
+
+            "brightWhite": "#f6f6ef",
+
+            "background": "#1a1a1a",
+
+            "foreground": "#c4c5b5"
+
+        },
+
+        {
+
+            "name": "Monokai Vivid",
+
+            "black": "#121212",
+
+            "red": "#fa2934",
+
+            "green": "#98e123",
+
+            "yellow": "#fff30a",
+
+            "blue": "#0443ff",
+
+            "purple": "#f800f8",
+
+            "cyan": "#01b6ed",
+
+            "white": "#ffffff",
+
+            "brightBlack": "#838383",
+
+            "brightRed": "#f6669d",
+
+            "brightGreen": "#b1e05f",
+
+            "brightYellow": "#fff26d",
+
+            "brightBlue": "#0443ff",
+
+            "brightPurple": "#f200f6",
+
+            "brightCyan": "#51ceff",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#121212",
+
+            "foreground": "#f9f9f9"
+
+        },
+
+        {
+
+            "name": "Neutron",
+
+            "black": "#23252b",
+
+            "red": "#b54036",
+
+            "green": "#5ab977",
+
+            "yellow": "#deb566",
+
+            "blue": "#6a7c93",
+
+            "purple": "#a4799d",
+
+            "cyan": "#3f94a8",
+
+            "white": "#e6e8ef",
+
+            "brightBlack": "#23252b",
+
+            "brightRed": "#b54036",
+
+            "brightGreen": "#5ab977",
+
+            "brightYellow": "#deb566",
+
+            "brightBlue": "#6a7c93",
+
+            "brightPurple": "#a4799d",
+
+            "brightCyan": "#3f94a8",
+
+            "brightWhite": "#ebedf2",
+
+            "background": "#1c1e22",
+
+            "foreground": "#e6e8ef"
+
+        },
+
+        {
+
+            "name": "Ollie",
+
+            "black": "#000000",
+
+            "red": "#ac2e31",
+
+            "green": "#31ac61",
+
+            "yellow": "#ac4300",
+
+            "blue": "#2d57ac",
+
+            "purple": "#b08528",
+
+            "cyan": "#1fa6ac",
+
+            "white": "#8a8eac",
+
+            "brightBlack": "#5b3725",
+
+            "brightRed": "#ff3d48",
+
+            "brightGreen": "#3bff99",
+
+            "brightYellow": "#ff5e1e",
+
+            "brightBlue": "#4488ff",
+
+            "brightPurple": "#ffc21d",
+
+            "brightCyan": "#1ffaff",
+
+            "brightWhite": "#5b6ea7",
+
+            "background": "#222125",
+
+            "foreground": "#8a8dae"
+
+        },
+
+        {
+
+            "name": "PaulMillr",
+
+            "black": "#2a2a2a",
+
+            "red": "#ff0000",
+
+            "green": "#79ff0f",
+
+            "yellow": "#e7bf00",
+
+            "blue": "#396bd7",
+
+            "purple": "#b449be",
+
+            "cyan": "#66ccff",
+
+            "white": "#bbbbbb",
+
+            "brightBlack": "#666666",
+
+            "brightRed": "#ff0080",
+
+            "brightGreen": "#66ff66",
+
+            "brightYellow": "#f3d64e",
+
+            "brightBlue": "#709aed",
+
+            "brightPurple": "#db67e6",
+
+            "brightCyan": "#7adff2",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#000000",
+
+            "foreground": "#f2f2f2"
+
+        },
+
+        {
+
+            "name": "Rippedcasts",
+
+            "black": "#000000",
+
+            "red": "#cdaf95",
+
+            "green": "#a8ff60",
+
+            "yellow": "#bfbb1f",
+
+            "blue": "#75a5b0",
+
+            "purple": "#ff73fd",
+
+            "cyan": "#5a647e",
+
+            "white": "#bfbfbf",
+
+            "brightBlack": "#666666",
+
+            "brightRed": "#eecbad",
+
+            "brightGreen": "#bcee68",
+
+            "brightYellow": "#e5e500",
+
+            "brightBlue": "#86bdc9",
+
+            "brightPurple": "#e500e5",
+
+            "brightCyan": "#8c9bc4",
+
+            "brightWhite": "#e5e5e5",
+
+            "background": "#2b2b2b",
+
+            "foreground": "#ffffff"
+
+        },
+
+        {
+
+            "name": "Seti",
+
+            "black": "#323232",
+
+            "red": "#c22832",
+
+            "green": "#8ec43d",
+
+            "yellow": "#e0c64f",
+
+            "blue": "#43a5d5",
+
+            "purple": "#8b57b5",
+
+            "cyan": "#8ec43d",
+
+            "white": "#eeeeee",
+
+            "brightBlack": "#323232",
+
+            "brightRed": "#c22832",
+
+            "brightGreen": "#8ec43d",
+
+            "brightYellow": "#e0c64f",
+
+            "brightBlue": "#43a5d5",
+
+            "brightPurple": "#8b57b5",
+
+            "brightCyan": "#8ec43d",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#111213",
+
+            "foreground": "#cacecd"
+
+        },
+
+        {
+
+            "name": "shades-of-purple",
+
+            "black": "#000000",
+
+            "red": "#d90429",
+
+            "green": "#3ad900",
+
+            "yellow": "#ffe700",
+
+            "blue": "#6943ff",
+
+            "purple": "#ff2c70",
+
+            "cyan": "#00c5c7",
+
+            "white": "#c7c7c7",
+
+            "brightBlack": "#686868",
+
+            "brightRed": "#f92a1c",
+
+            "brightGreen": "#43d426",
+
+            "brightYellow": "#f1d000",
+
+            "brightBlue": "#6871ff",
+
+            "brightPurple": "#ff77ff",
+
+            "brightCyan": "#79e8fb",
+
+            "brightWhite": "#ffffff",
+
+            "background": "#1e1d40",
+
+            "foreground": "#ffffff"
+
+        },
+
+        {
+
+            "name": "Thayer Bright",
+
+            "black": "#1b1d1e",
+
+            "red": "#f92672",
+
+            "green": "#4df840",
+
+            "yellow": "#f4fd22",
+
+            "blue": "#2757d6",
+
+            "purple": "#8c54fe",
+
+            "cyan": "#38c8b5",
+
+            "white": "#ccccc6",
+
+            "brightBlack": "#505354",
+
+            "brightRed": "#ff5995",
+
+            "brightGreen": "#b6e354",
+
+            "brightYellow": "#feed6c",
+
+            "brightBlue": "#3f78ff",
+
+            "brightPurple": "#9e6ffe",
+
+            "brightCyan": "#23cfd5",
+
+            "brightWhite": "#f8f8f2",
+
+            "background": "#1b1d1e",
+
+            "foreground": "#f8f8f8"
+
+        },
+
+        {
+
+            "name": "Ubuntu",
+
+            "black": "#2e3436",
+
+            "red": "#cc0000",
+
+            "green": "#4e9a06",
+
+            "yellow": "#c4a000",
+
+            "blue": "#3465a4",
+
+            "purple": "#75507b",
+
+            "cyan": "#06989a",
+
+            "white": "#d3d7cf",
+
+            "brightBlack": "#555753",
+
+            "brightRed": "#ef2929",
+
+            "brightGreen": "#8ae234",
+
+            "brightYellow": "#fce94f",
+
+            "brightBlue": "#729fcf",
+
+            "brightPurple": "#ad7fa8",
+
+            "brightCyan": "#34e2e2",
+
+            "brightWhite": "#eeeeec",
+
+            "background": "#300a24",
+
+            "foreground": "#eeeeec"
+
+        },
+
+        {
+
+            "name": "UltraViolent",
+
+            "black": "#242728",
+
+            "red": "#ff0090",
+
+            "green": "#b6ff00",
+
+            "yellow": "#fff727",
+
+            "blue": "#47e0fb",
+
+            "purple": "#d731ff",
+
+            "cyan": "#0effbb",
+
+            "white": "#e1e1e1",
+
+            "brightBlack": "#636667",
+
+            "brightRed": "#fb58b4",
+
+            "brightGreen": "#deff8c",
+
+            "brightYellow": "#ebe087",
+
+            "brightBlue": "#7fecff",
+
+            "brightPurple": "#e681ff",
+
+            "brightCyan": "#69fcd3",
+
+            "brightWhite": "#f9f9f5",
+
+            "background": "#242728",
+
+            "foreground": "#c1c1c1"
+
+        }
+
+    ],
+
+    // Add any keybinding overrides to this array.
+
+    // To unbind a default keybinding, set the command to "unbound"
+
+    "keybindings": []
+
+}
