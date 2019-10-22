@@ -8,7 +8,7 @@ export ZSH="/home/tetzel/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="avit"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -68,7 +68,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git command-not-found docker npm pip python sudo tmux yarn)
+plugins=(git command-not-found docker npm pip python sudo tmux yarn nvm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,5 +110,6 @@ alias myidPreview="ssh 104.236.87.216"
 alias myidLiveSFTP="sftp 45.55.58.23"
 alias myidPreviewSFTP="sftp 104.236.87.216"
 alias git-cleanup='git fetch --prune && git branch -r | awk "{print \$1}" | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk "{print \$1}" | xargs git branch -D'
+alias devdrive='cd /mnt/e/Code/'
 
 DEFAULT_USER="tetzel"
